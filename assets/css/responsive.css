@@ -1,0 +1,21 @@
+@media screen and (min-width:576px){
+    
+}
+@media screen and (min-width:768px){
+    .am-margin .col-12:nth-child(2){
+        margin: 0px;
+    }
+    .am-margin-bottom{
+        margin-bottom: 0;
+    }
+
+}
+@media screen and (min-width:992px){
+    .am-padding-top{
+        padding-top: 0px;
+    }
+    nav ul li{
+        background-color: rgba(255, 255, 255, 0);
+        padding-left: 0px;
+    }
+}
