@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cabin, sans-serif;
+    scroll-behavior: smooth;
+}
+.logo {
+    font-family: 'Rubik Moonrocks', cursive;
+}
+:root {
+    --green: rgb(77, 164, 95);
+    --orange: #fcaa56;
+}
+nav{
+    height: 4.5rem;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+nav ul li{
+    background-color:  rgba(255, 255, 255, 0.8);
+    padding-left: 1rem;
+}
+.am-orange{
+    color:var(--orange);
+}
+.am-green{
+    color: var(--green);
+}
+.am-padding-top{
+    padding-top: 4.5rem;
+}
+.am-active,nav ul li a:hover, a i:hover{
+    color: var(--orange) !important;
+}
+.am-margin .col-12:nth-child(2){
+    margin: 1rem 0;
+}
+.am-b-radius{
+    border-radius:49% 51% 42% 58% / 30% 54% 46% 70% ;
+}
+.am-background{
+    background-color: rgba(144, 158, 10, 0.2);
+}
+.am-button {
+    border: 2px solid var(--green);
+    padding: 8px 20px;
+    background-color: var(--green);
+    color: rgb(77, 164, 95);
+}
+#search-button:hover,
+.am-button:hover {
+    background-color: var(--green);
+    color:  #fcaa56 !important;
+}
