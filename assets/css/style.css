@@ -31,6 +31,9 @@ nav ul li{
 .am-padding-top{
     padding-top: 4.5rem;
 }
+.am-margin-top {
+    margin-top:4.5rem;
+}
 .am-active,nav ul li a:hover, a i:hover{
     color: var(--orange) !important;
 }
@@ -44,13 +47,14 @@ nav ul li{
     background-color: rgba(144, 158, 10, 0.2);
 }
 .am-button {
-    border: 2px solid var(--green);
-    padding: 8px 20px;
+    padding: 10px 30px;
     background-color: var(--green);
     color: rgb(77, 164, 95);
 }
 #search-button:hover,
 .am-button:hover {
-    background-color: var(--green);
-    color:  #fcaa56 !important;
+    background-color: var(--orange);
+}
+.am-margin-bottom{
+    margin-bottom: 1rem;
 }
